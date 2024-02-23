@@ -8,7 +8,8 @@
 jonathan.lim@COMP-PW290173CK k8builder-iteration1 % k apply -f config/crd/bases/demo.demo.jonlimpw.io_demovolumes.yaml 
 customresourcedefinition.apiextensions.k8s.io/demovolumes.demo.demo.jonlimpw.io created
 ```
-```jonathan.lim@COMP-PW290173CK k8builder-iteration1 % k get crd|grep -i jonlimpw
+```
+jonathan.lim@COMP-PW290173CK k8builder-iteration1 % k get crd|grep -i jonlimpw
 demovolumes.demo.demo.jonlimpw.io                                  2024-02-23T13:33:15Z
 ```
 ```
